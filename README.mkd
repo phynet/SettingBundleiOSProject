@@ -1,1 +1,14 @@
 ##Use this bundle file to configure your projects Name. Will be visible in your App Settings. 
+
+
+Just drag this folder inside your project and add the code below to **App Delegate's didFinishLaunchingWithOptions**
+
+###Objective-C:
+
+
+    - (void)settingAppVersion{
+        NSString * appVersionString = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        [defaults setValue:appVersionString forKey:@"appVersion"];
+        [defaults synchronize];
+    }
