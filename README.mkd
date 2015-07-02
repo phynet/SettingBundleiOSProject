@@ -1,4 +1,4 @@
-##Use this bundle file to configure your projects Name. Will be visible in your App Settings. 
+##Use this bundle file to configure your project version. This will be visible in your App Settings. 
 
 
 Just drag this folder inside your project and add the code below to **App Delegate's didFinishLaunchingWithOptions**
