@@ -1,4 +1,4 @@
-##Use this bundle file to configure your project's version ID, or whatver options you would like to show to users. This will be visible in your App Settings. 
+##Use this bundle file to configure your project's version ID, etc. This will be visible in your App Settings. 
 
 
 Just drag this folder inside your project and add the code below to **App Delegate's didFinishLaunchingWithOptions**
