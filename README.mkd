@@ -17,9 +17,8 @@ Just drag this folder inside your project and add the code below to **App Delega
 ###Swift:
 
     func settingsAppVersion(){
-    var appVersionString: AnyObject? = NSBundle.mainBundle() .objectForInfoDictionaryKey("CFBundleShortVersionString")
-    var defaults: NSUserDefaults = NSUserDefaults .standardUserDefaults()
-    defaults .setValue(appVersionString, forKey: "appVersion")
-    defaults .synchronize()
-  
-   }
+       var appVersionString: AnyObject? = NSBundle.mainBundle() .objectForInfoDictionaryKey("CFBundleShortVersionString")
+       var defaults: NSUserDefaults = NSUserDefaults .standardUserDefaults()
+       defaults .setValue(appVersionString, forKey: "appVersion")
+       defaults .synchronize()
+    }
