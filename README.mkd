@@ -1,5 +1,6 @@
 ##Use this bundle file to configure your project's version ID, etc. This will be visible in your App Settings. 
 
+![](http://postimg.org/image/b4gpwnmkx/)
 
 Just drag this folder inside your project and add the code below to **App Delegate's didFinishLaunchingWithOptions**
 
