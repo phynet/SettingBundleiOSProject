@@ -1,10 +1,10 @@
-## Use this bundle file to configure your project's version ID, etc. This will be visible in your App Settings. 
+### Use this bundle file to configure your project's version ID, etc. This will be visible in your App Settings. 
 
 ![img_6632](https://cloud.githubusercontent.com/assets/724536/8616480/e0d9a550-26fb-11e5-94c7-01ed6e6ee9b9.png)
 
 Just drag this folder inside your project and add the code below to **App Delegate's didFinishLaunchingWithOptions**
 
-###iOS 9 update:
+### iOS 9 update:
 If you're not seeing your app's version number or whatever option you've set, you must shut off and on your iPhone. Apple fails...
 
 The string "appVersion" is defined in a .plist file inside Settings file. You can change it for whatever string you like, and add more features, for example to show more info, or actions.
