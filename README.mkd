@@ -22,9 +22,9 @@ The string "appVersion" is defined in a .plist file inside Settings file. You ca
 
 ### Swift:
 
-    func settingsAppVersion(){
-       var appVersionString: AnyObject? = NSBundle.mainBundle() .objectForInfoDictionaryKey("CFBundleShortVersionString")
-       var defaults: NSUserDefaults = NSUserDefaults .standardUserDefaults()
-       defaults .setValue(appVersionString, forKey: "appVersion")
-       defaults .synchronize()
+    func settingAppVersion() {
+        let appVersionString = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String
+        let defaults = UserDefaults.standard
+        defaults.setValue(appVersionString, forKey: "appVersion")
+        defaults.synchronize()
     }
